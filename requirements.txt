@@ -30,3 +30,6 @@ tavily-python==0.5.1
 
 #
 #pydantic<2
+
+git+https://github.com/davoshack/ai-custom-utils.git
+

@@ -5,6 +5,7 @@ description = "Building Code Agents with Hugging Face smolagents"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ai-custom-utils",
     "arize-phoenix==8.19.1",
     "arize-phoenix-otel==0.9.0",
     "e2b-code-interpreter==1.0.5",
@@ -19,3 +20,6 @@ dependencies = [
     "smolagents[telemetry]==1.13.0",
     "tavily-python==0.5.1",
 ]
+
+[tool.uv.sources]
+ai-custom-utils = { git = "https://github.com/davoshack/ai-custom-utils.git" }
